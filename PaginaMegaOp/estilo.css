@@ -5,6 +5,7 @@
 
 main{
     display: flex;
+    font-family: sans-serif;
 }
 
 .izquierda{
@@ -13,10 +14,42 @@ main{
     background-color: lightgrey;
 }
 
+header a{
+    color: white;
+}
+
 header{
     width: 85vw;
-    height: 15vh;
+    height: 10vh;
     background-color: gray;
+}
+
+header span{
+    font-weight: bold;
+    color: white;
+}
+
+.header-superior{
+    background-color: #0f1111;
+    height: 5vh;
+    width: 85vw;
+}
+
+#nav-bar{
+    float: right;
+}
+
+.header-inferior li{
+    color: white;
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+.header-inferior{
+    background-color: darkslategrey;
+    height: 5vh;
+    width: 85vw;
 }
 
 .combo{
@@ -26,7 +59,6 @@ header{
 .uno{
     width: 42.5vw;
     height: 70vh;
-    background-color: red;
 }
 
 .dos{
@@ -38,5 +70,5 @@ header{
 footer{
     width: 85vw;
     height: 15vh;
-    background-color: rebeccapurple;
+    background-color: gray;
 }
