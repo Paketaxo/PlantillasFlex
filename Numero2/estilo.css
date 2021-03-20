@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    height: 60vh;
+}
+
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color: aquamarine;
+}
+
+.izquierda{
+    width: 20vw;
+    background-color: brown;
+}
+
+.centro{
+    width: 60vw;
+    background-color: cadetblue;
+}
+
+.derecha{
+    width: 20vw;
+    background-color: brown;
+}
+
+footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: cornflowerblue;
+}
+
+/**
+header div{
+    width: 100vw;
+    height: 20vh;
+    background-color: darkgray;
+}
+
+nav div{
+    width: 20vw;
+    height: 40vh;
+    background-color: darkgreen;
+    position: absolute;
+}
+
+main div{
+    width: 60vw;
+    height: 40vh;
+    background-color: darkmagenta;
+    position: absolute;
+    margin-left: 20vw;
+
+}
+
+aside div{
+    width: 20vw;
+    height: 40vh;
+    background-color: darkgreen;
+    position: relative;
+    margin-left: 80vw;
+}
+
+footer div{
+    width: 100vw;
+    height: 20vh;
+    background-color: darkslateblue;
+}**/
