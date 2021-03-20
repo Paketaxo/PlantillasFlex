@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: gray;
+}
+
+.combo{
+    display: flex;
+}
+
+.izquierda{
+    width: 20vw;
+    height: 90vh;
+    background-color: aquamarine;
+}
+ 
+.content{
+    width: 60vw;
+    height: 90vh;
+}
+ 
+.uno{
+    height: 15vh;
+    background-color: cornflowerblue;
+}
+
+.dos{
+    height: 15vh;
+    background-color: cyan;
+}
+
+.tres{
+    height: 15vh;
+    background-color: cornflowerblue;
+}
+
+.cuatro{
+    height: 15vh;
+    background-color: brown;
+}
+
+.cinco{
+    height: 15vh;
+    background-color: darkgoldenrod;
+}
+
+.seis{
+    height: 15vh;
+    background-color: brown;
+}
+
+.derecho{
+    width: 20vw;
+    height: 90vh;
+    background-color: aquamarine;
+}
