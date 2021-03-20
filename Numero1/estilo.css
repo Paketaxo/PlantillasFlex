@@ -3,15 +3,15 @@
     margin: 0;
 }
 
-main{
-    display: flex;
-    height: 60vh;
-}
-
 header{
     width: 100vw;
-    height: 20vh;
+    height: 10vh;
     background-color: aquamarine;
+}
+
+main{
+    display: flex;
+    height: 80vh;
 }
 
 .izquierda{
@@ -19,18 +19,13 @@ header{
     background-color: brown;
 }
 
-.centro{
-    width: 60vw;
-    background-color: cadetblue;
-}
-
 .derecha{
-    width: 20vw;
-    background-color: brown;
+    width: 80vw;
+    background-color: blueviolet;
 }
 
 footer{
     width: 100vw;
-    height: 20vh;
+    height: 10vh;
     background-color: cornflowerblue;
 }
