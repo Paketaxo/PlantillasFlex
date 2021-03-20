@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    display: flex;
+    height: 100vh;
+}
+
+.izquierda{
+    width: 33vw;
+    
+    background-color: cornflowerblue;
+}
+
+.centro{
+    width: 34vw;
+    
+    background-color: crimson;
+}
+
+.derecha{
+    width: 33vw;
+    background-color: darkgreen;
+}
