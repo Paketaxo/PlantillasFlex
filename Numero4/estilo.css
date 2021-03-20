@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: gray;
+}
+
+.content{
+    display: flex;
+    height: 90vh;
+}
+
+.izquierda{
+    width: 25vw;
+    background-color: darkgreen;
+}
+
+.izquierda :nth-child(2){
+    background-color: cornflowerblue;
+}
+
+.izquierda div{
+    height: 30vh;
+    background-color: green;
+}
+
+.centro{
+    width: 50vw;
+    background-color: crimson;
+}
+
+.derecha{
+    width: 25vw;
+    background-color: darkgreen;
+}
+
+.derecha div{
+    height: 30vh;
+    background-color: green;
+}
+
+.derecha :nth-child(2){
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: gray;
+}
+
+nav{
+    width: 100vw;
+    height: 5vh;
+    background-color: rebeccapurple;
+}
+
+.content{
+    display: flex;
+}
+
+.izquierda{
+    width: 25vw;
+    height: 60vh;
+    background-color: darkgreen;
+}
+
+.izquierda :nth-child(2){
+    background-color: cornflowerblue;
+}
+
+.izquierda div{
+    height: 30vh;
+    background-color: green;
+}
+
+.centro{
+    width: 50vw;
+    height: 80vh;
+    background-color: crimson;
+}
+
+.derecha{
+    width: 25vw;
+    height: 60vh;
+    background-color: darkgreen;
+}
+
+.derecha div{
+    height: 30vh;
+    background-color: green;
+}
+
+.derecha :nth-child(2){
+    background-color: cornflowerblue;
+}
+
+footer{
+    width: 100vw;
+    height: 5vh;
+    background-color: gray;
+}
