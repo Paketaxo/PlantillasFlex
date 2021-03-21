@@ -3,71 +3,112 @@
     margin: 0;
 }
 
+html{
+    font-family: sans-serif;
+}
+
 main{
     display: flex;
-    height: 60vh;
+    height: 80vh;
 }
 
 header{
     width: 100vw;
-    height: 20vh;
-    background-color: aquamarine;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header img{
+    width: 100px;
+}
+
+.logo-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-nav li{
+    list-style: none;
+    display: inline;
+    color: white;
+    margin: 0 10px;
+}
+
+.icons img{
+    width: 50px;
+    margin: 0 10px;
 }
 
 .izquierda{
-    width: 20vw;
-    background-color: brown;
+    width: 15vw;
+    background-color: #18181b;
+    color: white;
 }
 
 .centro{
-    width: 60vw;
+    width: 65vw;
     background-color: cadetblue;
 }
 
 .derecha{
     width: 20vw;
-    background-color: brown;
+    background-color: #18181b;
+    color: white;
+}
+
+.derecha article{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.derecha article img{
+    width: 50px;
+}
+
+.derecha article :nth-child(3){
+    width: 35px;
+}
+
+.derecha li{
+    list-style: none;
+    margin: 15px;
+}
+
+.comments{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#comment-bar{
+    width: 250px;
+}
+
+.izquierda article img{
+    width: 50px;
+}
+
+.izquierda article{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#rec{
+    width: 256px;
+    height: 655px;
 }
 
 footer{
     width: 100vw;
-    height: 20vh;
-    background-color: cornflowerblue;
+    height: 10vh;
+    background-color: darkslategrey;
+    color: white;
 }
-
-/**
-header div{
-    width: 100vw;
-    height: 20vh;
-    background-color: darkgray;
+footer h1{
+    text-align: center;
 }
-
-nav div{
-    width: 20vw;
-    height: 40vh;
-    background-color: darkgreen;
-    position: absolute;
-}
-
-main div{
-    width: 60vw;
-    height: 40vh;
-    background-color: darkmagenta;
-    position: absolute;
-    margin-left: 20vw;
-
-}
-
-aside div{
-    width: 20vw;
-    height: 40vh;
-    background-color: darkgreen;
-    position: relative;
-    margin-left: 80vw;
-}
-
-footer div{
-    width: 100vw;
-    height: 20vh;
-    background-color: darkslateblue;
-}**/
