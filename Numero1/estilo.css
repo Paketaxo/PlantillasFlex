@@ -3,10 +3,38 @@
     margin: 0;
 }
 
+html{
+    font-family: sans-serif;
+}
+
 header{
     width: 100vw;
     height: 10vh;
-    background-color: aquamarine;
+    background-color: #0b0b0a;
+    color: white;
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header h1{
+    margin-left: 20px;
+}
+
+header img{
+    width: 70px;
+    height: 70px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.icons img{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
 }
 
 main{
@@ -15,17 +43,43 @@ main{
 }
 
 .izquierda{
-    width: 20vw;
-    background-color: brown;
+    color: white;
+    width: 12vw;
+    background-color: #212121;
+}
+
+.izquierda .principal{
+    margin: 15px 20px;
+}
+
+.izquierda .usuario{
+    margin: 15px 20px;
+}
+
+.izquierda .sus img{
+    width: 200px;
+    height: 300px;
+    
+}
+
+.izquierda .sus li{
+    margin: 15px 20px;
+}
+
+.izquierda li{
+    list-style: none;
+    margin: 10px 0;
 }
 
 .derecha{
-    width: 80vw;
+    width: 88vw;
     background-color: blueviolet;
 }
 
 footer{
+    color: white;
     width: 100vw;
     height: 10vh;
-    background-color: cornflowerblue;
+    background-color: #0b0b0a;
+    text-align: center;
 }
