@@ -3,46 +3,67 @@
     margin: 0;
 }
 
+html{
+    font-family: sans-serif;
+}
+
 header{
     width: 100vw;
     height: 10vh;
     background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header ul{
+    list-style: none;
+}
+
+header li{
+    display: inline;
+    margin: 0 10px;
 }
 
 .content{
     display: flex;
     height: 90vh;
+    background-color: black;
 }
 
 .izquierda{
     width: 25vw;
-    background-color: darkgreen;
-}
-
-.izquierda :nth-child(2){
-    background-color: cornflowerblue;
 }
 
 .izquierda div{
     height: 30vh;
-    background-color: green;
+    
 }
 
 .centro{
     width: 50vw;
-    background-color: crimson;
+    
 }
 
 .derecha{
     width: 25vw;
-    background-color: darkgreen;
+    
 }
 
 .derecha div{
     height: 30vh;
-    background-color: green;
+    
 }
 
-.derecha :nth-child(2){
-    background-color: cornflowerblue;
+img{
+    width: 98%;
+    height: 98%;
+    margin: 1%;
+    -webkit-filter: blur(5px);
+    filter: blur(2px);
+}
+
+img:hover{
+    -webkit-filter: none;
 }
