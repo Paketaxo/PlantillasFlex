@@ -3,24 +3,124 @@
     margin: 0;
 }
 
+html{
+    font-family: sans-serif;
+}
+
 .content{
     display: flex;
     height: 100vh;
 }
 
+.background{
+    text-align: center;
+}
+
 .izquierda{
     width: 33vw;
-    
-    background-color: cornflowerblue;
+    background-color: wheat;
+}
+
+.izquierda .header{
+    display: flex;
+}
+
+.izquierda .header{
+    background-image: url(Imagenes/Logo.gif);
+    background-size: contain;
+    opacity: .8;
+    width: 100%;
+    height: 10%;
+}
+
+.izquierda article img{
+    width: 80%;
+    margin: 5% 10%;
+}
+
+.izquierda article{
+    width: 80%;
+    margin: 4% 9%;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 25px;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.izquierda article h3{
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.izquierda article time{
+    margin: 0 35px;
+    color: gray;
+}
+
+.background{
+    color: black;
 }
 
 .centro{
     width: 34vw;
-    
-    background-color: crimson;
+    background-color: rgb(255, 212, 132);
+}
+
+.centro article img{
+    width: 80%;
+    margin: 5% 10%;
+}
+
+.centro article h3{
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.centro article time{
+    margin: 0 35px;
+    color: gray;
+}
+
+.centro article{
+    width: 80%;
+    margin: 10% 9%;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 25px;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
 }
 
 .derecha{
     width: 33vw;
-    background-color: darkgreen;
+    background-color: rgb(255, 199, 96);
+}
+
+.derecha article{
+    width: 80%;
+    margin: 4% 9%;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 25px;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.derecha article time{
+    margin: 0 35px;
+    color: gray;
+}
+
+.derecha article img{
+    width: 50%;
+    margin: 5% 20%;
+}
+
+.derecha article h3{
+    text-align: center;
+    margin-bottom: 20px
 }
