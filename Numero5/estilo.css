@@ -3,16 +3,50 @@
     margin: 0;
 }
 
+html{
+    font-family: sans-serif;
+}
+
+
 header{
     width: 100vw;
     height: 10vh;
     background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo img{
+    width: 5%;
+    float: left;
+    margin-right: 20px;
+}
+
+.icons img{
+    width: 50px;
+    margin: 0 10px;
 }
 
 nav{
     width: 100vw;
     height: 5vh;
-    background-color: rebeccapurple;
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a{
+    color: burlywood;
+}
+
+nav li{
+    display: inline;
+    margin: 10px 10px;
+    list-style: none;
 }
 
 .content{
@@ -21,42 +55,72 @@ nav{
 
 .izquierda{
     width: 25vw;
-    height: 60vh;
-    background-color: darkgreen;
-}
-
-.izquierda :nth-child(2){
-    background-color: cornflowerblue;
+    height: 70vh;
+    background-color: burlywood;
 }
 
 .izquierda div{
     height: 30vh;
-    background-color: green;
+    margin: 5px 5px;
+}
+
+.izquierda img{
+    width: 70%;
+    margin: 10px 0;
+}
+
+.izquierda article{
+    text-align: center;
+    margin-top: 10px;
 }
 
 .centro{
     width: 50vw;
     height: 80vh;
-    background-color: crimson;
+    overflow: scroll;
+    background-color: rgb(219, 162, 88);
+}
+
+.centro article{
+    margin: 20px 4%;
+    margin-bottom: 15px;
+}
+
+.centro img{
+    width: 50%;
+    margin: 10px 25%;
 }
 
 .derecha{
     width: 25vw;
-    height: 60vh;
-    background-color: darkgreen;
+    height: 70vh;
+    background-color: burlywood;
 }
 
 .derecha div{
     height: 30vh;
-    background-color: green;
+    margin: 5px 5px;
+    
 }
 
-.derecha :nth-child(2){
-    background-color: cornflowerblue;
+.derecha img{
+    width: 70%;
+    margin: 10px 0;
+}
+
+.derecha article{
+    text-align: center;
+    margin-top: 10px;
+}
+
+article a{
+    color: white;
 }
 
 footer{
     width: 100vw;
     height: 5vh;
     background-color: gray;
+    color: white;
+    text-align: center;
 }
